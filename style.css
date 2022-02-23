@@ -25,9 +25,30 @@ video {
 }
 
 .header {
+  padding: 5px;
   height: 100px;
   width: 100%;
   background-color: blue;
   font-size: 16px;
-  
+  color: white;  
+}
+
+.left-column{
+  width:50%;
+  float:left;
+  background-color: red;
+  font-size: 16px;
+  color: white;
+}
+
+.right-column{
+  width:50%;
+  float:right;
+  background-color: green;
+  font-size: 16px;
+  color: white;
+}
+
+.float-column{
+    padding: 0px; 
 }
