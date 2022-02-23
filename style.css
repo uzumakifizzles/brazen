@@ -24,6 +24,10 @@ video {
   max-width: 100%;
 }
 
+.main {
+  margin: 0 auto;
+  width: 80%;
+}
 .header {
   padding: 5px;
   height: 100px;
@@ -33,24 +37,19 @@ video {
   color: white;  
 }
 
-.left-column{
+.column{
+  padding: 5px;
   width:50%;
-  height: 100px;
+  height: 500px;
   float:left;
-  background-color: red;
   font-size: 16px;
   color: white;
 }
 
-.right-column{
-  width:50%;
-  height: 100px;
-  float:right;
+#right-column{
   background-color: green;
-  font-size: 16px;
-  color: white;
 }
 
-.float-column{
-    padding: 0px; 
+#left-column{
+  background-color: red;
 }
